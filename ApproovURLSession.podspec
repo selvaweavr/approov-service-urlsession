@@ -9,6 +9,9 @@ Pod::Spec.new do |s|
   s.license      = { :type => "Commercial", :file => "LICENSE" }
   s.authors      = { "CriticalBlue, Ltd." => "support@approov.io" }
   s.source       = { :git => "https://github.com/approov/approov-service-urlsession", :tag => s.version }
+  s.module_name = 'ApproovURLSession'
+  s.explicit_module_map = false
+
   
   # Supported platforms
   s.ios.deployment_target = '11.0'
